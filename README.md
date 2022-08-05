@@ -4,11 +4,9 @@
 Here you will find...
 
 ## Getting Started/Installation Instructions:
-### `Code`
+### `Portfolio`
 
-Follow this link:
-[Website Link](https://www.giggapedia.com), 
-</br>
+[Giggapedia](https://www.giggapedia.com) 
 
 ### `git clone`
 
@@ -33,4 +31,4 @@ If you would like to add any contributes, simply 'fork' the project on the Githu
 
 ### Credits: ###
 
-- Nick Giggey [Github Link](https://github.com/nickgiggey)
+- Nick Giggey's [Github](https://github.com/nickgiggey)
