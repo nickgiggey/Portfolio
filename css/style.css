@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* -----------------------------------------------Body------------------------------------------------- */
 body {
   background: #08E8DE;
@@ -180,7 +184,7 @@ body {
   text-align: center;
   font-size: 1vw;
   background: black;
-  height: 700px;
+  height: 710px;
   width: auto;
   border: 2px solid;
   border-top-color: #08E8DE;
@@ -264,6 +268,178 @@ body {
   font-size: 20px;
 }
 
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  filter: drop-shadow(0 0 10px #0003);
+  width: 25%;
+  height: 25%;
+  list-style: none;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 0;
+  cursor: cell;
+  margin: 0px;
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.carousel_viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 1em;
+  border: 4px solid #ffa500;
+  border-radius: 15px;
+}
+.carousel_slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 25%;
+  background-color: #212534;
+  counter-increment: item;
+}
+
+.carousel_slide:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -40%, 70px);
+  color: #fff;
+  font-size: 2em;
+}
+.carousel_snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+} 
+@media (hover: hover) {
+  .carousel_snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .carousel_slide:last-child .carousel_snapper {
+    animation-name: tostart, snap;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel_snapper {
+    animation-name: none;
+  }
+}
+.carousel:hover .carousel_snapper,
+.carousel:focus-within .carousel_snapper {
+  animation-name: none;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel_prev,
+.carousel_next {
+  position: fixed;
+  top: 0;
+  margin-top: 37.5%;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+.carousel::before,
+.carousel_prev {
+  left: -5rem;
+}
+.carousel::after,
+.carousel_next {
+  right: -5rem;
+}
+
+.carousel_slide:nth-child(1) {
+  background-image: url("movie_relics.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.carousel_slide:nth-child(2) {
+  background-image: url("png-clipart-youtube-computer-icons-youtube-logo-black.png");
+  width: 700px;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+}
+.carousel_slide:nth-child(3) {
+  background-image: url("png-transparent-black-cat-github-logo-repository-computer-icons-github.png");
+  background-position: center center;
+  background-size: cover;
+}
+.carousel_slide:nth-child(4) {
+  background-image: url("linkedin-logo-black-png-linkedin-icon-black-and-white-11562906557v2906x3pr2.png");
+  background-position: center center;
+  background-size: cover;
+} 
+
 /* -------------------------------------------Device Settings------------------------------------------ */
 @media screen and (max-width: 992px) {
   body {
@@ -281,7 +457,6 @@ body {
   }
 
   #icon-links-container {
-    /* width: 15%; */
     position: fixed;
     display: flex;
     top: 170px;

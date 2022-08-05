@@ -1,18 +1,21 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 /* -----------------------------------------------Body------------------------------------------------- */
+
 body {
-    background-image: url(IMG_0327.JPG);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-color: #000;
-    background-repeat: no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(0, 0, 0, 0.55)), rgba(0, 0, 0, 0.55) url(wp4833274-graffiti-black-desktop-wallpapers.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
 }
+
 /* ----------------------------------------------Nav Bar----------------------------------------------- */
+
 #nav {
     text-align: center;
 }
+
 #navbar {
     top: 0px;
     Left: 0px;
@@ -20,7 +23,7 @@ body {
     height: 80px;
     z-index: 500;
     background-color: #2c92d5;
-    border: 3px dashed;
+    border: 3px solid;
     border-top-color: #2c92d5;
     border-right-color: #2c92d5;
     border-bottom-color: #08E8DE;
@@ -28,10 +31,13 @@ body {
     opacity: 90%;
     position: fixed;
     box-shadow: 0 2px 30px rgba(44, 146, 213,.80);
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.45)), rgba(0, 0, 0, 0.55);
 }
+
 #navbar #nav-icon {
     padding: 25px 5px 5px 5px;
 }
+
 #name {
     font-size: 30px;
     text-decoration-color: #08E8DE;
@@ -41,6 +47,7 @@ body {
     font-family: 'Rock Salt', cursive;
     margin: 0vmax 0vw 5px 5.5vmax;
 }
+
 .name-underline {
     font-size: 50px;
     color: #FFA500;
@@ -55,29 +62,36 @@ body {
     border: none;
     background-size: 300% 100%;
 }
+
 .name-underline:hover {
     background-position: 100% 0;
     transition: all .4s ease-out;
 }
+
 .name-underline:focus {
     outline: none;
 }
+
 .name-underline.color {
     background-image: linear-gradient(to right, #00000000, #00000000, #FCF340, #00000000);
 }
+
 #logo {
     float: left;
 }
+
 #logo-img {
     width: 70px;
     height: auto;
     padding: 3px;
     position: fixed;
 }
+
 #nav-icon {
     margin: 0 auto;
     display: block;
 }
+
 #icon-links-container {
     float: right;
     position: fixed;
@@ -90,6 +104,7 @@ body {
     text-align:center;
     margin: 0px;
 }
+
 #header-icon-github {
     cursor: pointer;
     border: none;
@@ -99,11 +114,13 @@ body {
     background-size: cover;
     margin: 25px 0px 15px 0px;
 }
+
 .github-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 #header-icon-linkedin {
     cursor: pointer;
     border: none;
@@ -111,11 +128,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
 }
+
 .linkedin-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 #header-icon-youtube {
     cursor: pointer;
     border: none;
@@ -123,11 +142,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
 }
+
 .youtube-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 #header-icon-instagram {
     cursor: pointer;
     border: none;
@@ -135,11 +156,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
 }
+
 .instagram-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 #header-icon-facebook {
     cursor: pointer;
     border: none;
@@ -147,11 +170,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
 }
+
 .facebook-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 #header-icon-movierelics {
     cursor: pointer;
     border: none;
@@ -159,21 +184,26 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px -10px;
 }
+
 .movierelics-pic {
     width: 4.5vw;
     height: auto;
     background-color: #00000000;
 }
+
 .header-icon:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
 }
+
 .header-icon:focus {
     outline: none;
 }
+
 .header-icon.color {
     background-image: linear-gradient(to left, black, #37c9ef, black, black);
 }
+
 #links-container {
     text-align:center;
     padding: 57px 17vw 1vw 1vw;
@@ -185,6 +215,7 @@ body {
     background-color: #0000;
     margin: 0px;
 }
+
 .header-button {
     font-size: 1rem;
     font-family: 'Prompt', sans-serif;
@@ -202,17 +233,22 @@ body {
     border-top-color: #0000;
     transition: all .4s ease-in-out;
 }
+
 .header-button:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
 }
+
 .header-button:focus {
     outline: none;
 }
+
 .header-button.color {
     background-image: linear-gradient(to left, black, #faff00, black, black);
 }
+
 /* ---------------------------------------------Main Body---------------------------------------------- */
+
 .section-1 {
     padding: 400px 0px 0vw 20px;
     margin: 0px 0px 3vw 0px;
@@ -223,125 +259,118 @@ body {
     justify-content: flex-start;
     align-items: center;
   }
-  .first-pic {
-    width: 20vw;
-    height: auto;
-    background-color: #00000019;
-    border-radius: 50%;
-    margin: 100px;
-  }
-  .first-paragraph {
-      color: white;
-      font-size: 20px;
-      text-align: center;
-  }
-  .section-2 {
-    padding: 20px 0px 45vw 20px;
-    margin: 0px 0px 3vw 100px;
-    width: 90%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .second-pic {
-    width: 20vw;
-    height: auto;
-    background-color: #00000019;
-    border-radius: 50%;
-    margin: 100px;
-  }
-  .second-paragraph {
-      color: white;
-      font-size: 20px;
-      text-align: center;
-  }
-  
-  /* ----------------------------------------------------------------------------------------- */
 
-  /* ----------------------------------------------Button------------------------------------------------ */
-  #top-button {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    cursor: pointer;
-    border: #000;
-    transition-duration: 0.4s;
-    background-color: #0000;
-  }
-  .button-pic {
-    width: 80px;
-    height: auto;
-    background-color: #00000019;
-    border-radius: 50%;
-    box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
-  }
-  #top-button:hover {
-    border-radius: 50%;
-    box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
-    box-shadow: 0 5px #B026FF;
-    transform: translateY(5px);
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
-  }
-  /* ------------------------------------------------End------------------------------------------------- */
-  /* -------------------------------------------Links Extension------------------------------------------ */
-  #links-nav-icon {
-    margin: 0 auto;
-    display: block;
-  }
-  #links-icon-links-container {
-    position: fixed;
-    display: flex;
-    top: 350px;
-    right: 21vmax;
-    width: 55vw;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    background-color: #0000;
+.first-paragraph {
+    color: white;
+    font-size: 20px;
     text-align: center;
-    margin: 0px;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  #links-header-icon-github {
-    cursor: pointer;
-    border: none;
-    transition-duration: 0.4s;
-    background-color: #0000;
-    background-position: center center;
-    background-size: cover;
-    margin: 25px 0px 15px 0px;
-  }
-  .links-github-pic {
-    width: 5vmax;
-    height: auto;
-    background-color: #00000000;
-  }
-  #links-header-icon-linkedin {
-    cursor: pointer;
-    border: none;
-    transition-duration: 0.4s;
-    background-color: #0000;
-    margin: 0px 0px 15px 0px;
-  }
-  .links-linkedin-pic {
-    width: 5vmax;
-    height: auto;
-    background-color: #00000000;
-  }
-  #links-header-icon-youtube {
-    cursor: pointer;
-    border: none;
-    transition-duration: 0.4s;
-    background-color: #0000;
-    margin: 0px 0px 15px 0px;
-  }
+}
+
+.second-paragraph {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+  
+/* ----------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------Button------------------------------------------------ */
+
+#top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  border: #000;
+  transition-duration: 0.4s;
+  background-color: #0000;
+}
+
+.button-pic {
+  width: 80px;
+  height: auto;
+  background-color: #00000019;
+  border-radius: 50%;
+  box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
+}
+
+#top-button:hover {
+  border-radius: 50%;
+  box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
+  box-shadow: 0 5px #B026FF;
+  transform: translateY(5px);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+/* ------------------------------------------------End------------------------------------------------- */
+
+/* -------------------------------------------Links Extension------------------------------------------ */
+
+#links-nav-icon {
+  margin: 0 auto;
+  display: block;
+}
+
+#links-icon-links-container {
+  position: fixed;
+  display: flex;
+  top: 350px;
+  right: 21vmax;
+  width: 55vw;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  background-color: #0000;
+  text-align: center;
+  margin: 0px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#links-header-icon-github {
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.4s;
+  background-color: #0000;
+  background-position: center center;
+  background-size: cover;
+  margin: 25px 0px 15px 0px;
+}
+
+.links-github-pic {
+  width: 5vmax;
+  height: auto;
+  background-color: #00000000;
+}
+
+#links-header-icon-linkedin {
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.4s;
+  background-color: #0000;
+  margin: 0px 0px 15px 0px;
+}
+
+.links-linkedin-pic {
+  width: 5vmax;
+  height: auto;
+  background-color: #00000000;
+}
+
+#links-header-icon-youtube {
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.4s;
+  background-color: #0000;
+  margin: 0px 0px 15px 0px;
+}
+
   .links-youtube-pic {
     width: 5vmax;
     height: auto;
     background-color: #00000000;
   }
+
   #links-header-icon-instagram {
     cursor: pointer;
     border: none;
@@ -349,11 +378,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
   }
+
   .links-instagram-pic {
     width: 5vmax;
     height: auto;
     background-color: #00000000;
   }
+
   #links-header-icon-facebook {
     cursor: pointer;
     border: none;
@@ -361,11 +392,13 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px 0px;
   }
+
   .links-facebook-pic {
     width: 5vmax;
     height: auto;
     background-color: #00000000;
   }
+
   #links-header-icon-movierelics {
     cursor: pointer;
     border: none;
@@ -373,37 +406,44 @@ body {
     background-color: #0000;
     margin: 0px 0px 15px -10px;
   }
+
   .links-movierelics-pic {
     width: 5vmax;
     height: auto;
     background-color: #00000000;
   }
+
   .links-header-icon:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
   }
+
   .links-header-icon:focus {
     outline: none;
   }
+
   .links-header-icon.color {
     background-image: linear-gradient(to left, black, #37c9ef, black, black);
   }
-  /* iii */
+
   /* -------------------------------------------Device Settings------------------------------------------ */
+
     @media screen and (max-width: 992px) {
       body {
         background-color: black;
       }
+
       #links-container {
         width: 70%;
         margin: 30px 20px;
       }
+
       #nav-icon {
         margin: 5px 5px 5px 5px;
         display: block;
       }
+
       #icon-links-container{
-        /* width: 15%; */
         position: fixed;
         display: flex;
         top: 170px;
@@ -417,6 +457,7 @@ body {
         justify-content: space-between;
         align-items: flex-end;
       }
+
       #header-icon-github {
         cursor: pointer;
         border: none;
@@ -424,11 +465,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .github-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-linkedin {
         cursor: pointer;
         border: none;
@@ -436,11 +479,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .linkedin-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-youtube {
         cursor: pointer;
         border: none;
@@ -448,11 +493,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .youtube-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-instagram {
         cursor: pointer;
         border: none;
@@ -460,11 +507,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .instagram-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-facebook {
         cursor: pointer;
         border: none;
@@ -472,11 +521,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .facebook-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-movierelics {
         cursor: pointer;
         border: none;
@@ -484,11 +535,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px -5px;
       }
+
       .movierelics-pic {
         width: 35px;
         height: auto;
         background-color: #00000000;
       }
+
       .header-button {
         font-size: 12px;
         font-family: 'Prompt', sans-serif;
@@ -506,7 +559,8 @@ body {
         border-top-color: #0000;
         transition: all .4s ease-in-out;
         background-size: cover;
-        }
+      }
+
       #top-button {
         position: fixed;
         bottom: 20px;
@@ -516,6 +570,7 @@ body {
         transition-duration: 0.4s;
         background-color: #0000;
       }
+
       .button-pic {
         width: 80px;
         height: auto;
@@ -523,21 +578,25 @@ body {
         border-radius: 50%;
         box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
       }
+
     /* If a screen is 600px or less wide, stack the columns on top of each other instead of next to each other */
+
     @media screen and (max-width: 500px) {
       body {
         background-color: black;
       }
+
       #links-container {
         width: 70%;
         margin: 45px -10px;
       }
+
       #nav-icon {
         margin: 5px 5px 5px 5px;
         display: block;
       }
+
       #icon-links-container{
-        /* width: 15%; */
         position: fixed;
         display: flex;
         top: 180px;
@@ -551,6 +610,7 @@ body {
         justify-content: space-between;
         align-items: flex-end;
       }
+
       #header-icon-github {
         cursor: pointer;
         border: none;
@@ -558,11 +618,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .github-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-linkedin {
         cursor: pointer;
         border: none;
@@ -570,11 +632,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .linkedin-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-youtube {
         cursor: pointer;
         border: none;
@@ -582,11 +646,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .youtube-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-instagram {
         cursor: pointer;
         border: none;
@@ -594,11 +660,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .instagram-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-facebook {
         cursor: pointer;
         border: none;
@@ -606,11 +674,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px 0px;
       }
+
       .facebook-pic {
         width: 30px;
         height: auto;
         background-color: #00000000;
       }
+
       #header-icon-movierelics {
         cursor: pointer;
         border: none;
@@ -618,11 +688,13 @@ body {
         background-color: #0000;
         margin: 0px 0px 15px -5px;
       }
+
       .movierelics-pic {
         width: 32px;
         height: auto;
         background-color: #00000000;
       }
+
       .header-button {
         font-size: 12px;
         font-family: 'Prompt', sans-serif;

@@ -1,5 +1,7 @@
 #hamster-wheel {
   background-image: linear-gradient(147deg, #170435 10%, #4a1062 50%, #a51f7f 100%);
+  border-radius: 10px;
+  height: 100%;
 }
 
 .wheel-top {
