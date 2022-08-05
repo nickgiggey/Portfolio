@@ -1,19 +1,19 @@
 *, *::before, *::after {
     box-sizing: border-box;
-  }
-  /* -----------------------------------------------Body------------------------------------------------- */
-  body {
+}
+/* -----------------------------------------------Body------------------------------------------------- */
+body {
     background-image: url(IMG_0327.JPG);
     background-attachment: fixed;
     background-size: 100%;
     background-color: #000;
     background-repeat: no-repeat;
-  }
-  /* ----------------------------------------------Nav Bar----------------------------------------------- */
-  #nav {
+}
+/* ----------------------------------------------Nav Bar----------------------------------------------- */
+#nav {
     text-align: center;
-  }
-  #navbar {
+}
+#navbar {
     top: 0px;
     Left: 0px;
     width: 100%;
@@ -28,11 +28,11 @@
     opacity: 90%;
     position: fixed;
     box-shadow: 0 2px 30px rgba(44, 146, 213,.80);
-  }
-  #navbar #nav-icon {
+}
+#navbar #nav-icon {
     padding: 25px 5px 5px 5px;
-  }
-  #name {
+}
+#name {
     font-size: 30px;
     text-decoration-color: #08E8DE;
     color: white;
@@ -40,8 +40,8 @@
     font-family: 'Permanent Marker', cursive;
     font-family: 'Rock Salt', cursive;
     margin: 0vmax 0vw 5px 5.5vmax;
-  }
-  .name-underline {
+}
+.name-underline {
     font-size: 50px;
     color: #FFA500;
     margin: 0vw 0vw 0vw 0vw;
@@ -54,31 +54,31 @@
     background-color: #00000000;
     border: none;
     background-size: 300% 100%;
-  }
-  .name-underline:hover {
+}
+.name-underline:hover {
     background-position: 100% 0;
     transition: all .4s ease-out;
-  }
-  .name-underline:focus {
+}
+.name-underline:focus {
     outline: none;
-  }
-  .name-underline.color {
+}
+.name-underline.color {
     background-image: linear-gradient(to right, #00000000, #00000000, #FCF340, #00000000);
-  }
-  #logo {
+}
+#logo {
     float: left;
-  }
-  #logo-img {
+}
+#logo-img {
     width: 70px;
     height: auto;
     padding: 3px;
     position: fixed;
-  }
-  #nav-icon {
+}
+#nav-icon {
     margin: 0 auto;
     display: block;
-  }
-  #icon-links-container {
+}
+#icon-links-container {
     float: right;
     position: fixed;
     top: 90px;
@@ -89,8 +89,8 @@
     background-color: #0000;
     text-align:center;
     margin: 0px;
-  }
-  #header-icon-github {
+}
+#header-icon-github {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
@@ -98,84 +98,83 @@
     background-position: center center;
     background-size: cover;
     margin: 25px 0px 15px 0px;
-  }
-  .github-pic {
+}
+.github-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  #header-icon-linkedin {
+}
+#header-icon-linkedin {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px 0px 15px 0px;
-  }
-  .linkedin-pic {
+}
+.linkedin-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  #header-icon-youtube {
+}
+#header-icon-youtube {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px 0px 15px 0px;
-  }
-  .youtube-pic {
+}
+.youtube-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  #header-icon-instagram {
+}
+#header-icon-instagram {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px 0px 15px 0px;
-  }
-  .instagram-pic {
+}
+.instagram-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  #header-icon-facebook {
+}
+#header-icon-facebook {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px 0px 15px 0px;
-  }
-  .facebook-pic {
+}
+.facebook-pic {
     width: 3.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  #header-icon-movierelics {
+}
+#header-icon-movierelics {
     cursor: pointer;
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px 0px 15px -10px;
-  }
-  .movierelics-pic {
+}
+.movierelics-pic {
     width: 4.5vw;
     height: auto;
     background-color: #00000000;
-  }
-  .header-icon:hover {
+}
+.header-icon:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
-  }
-  .header-icon:focus {
+}
+.header-icon:focus {
     outline: none;
-  }
-  .header-icon.color {
+}
+.header-icon.color {
     background-image: linear-gradient(to left, black, #37c9ef, black, black);
-  }
-  /* iii */
-  #links-container {
+}
+#links-container {
     text-align:center;
     padding: 57px 17vw 1vw 1vw;
     position: fixed;
@@ -185,8 +184,8 @@
     transition-duration: 0.4s;
     background-color: #0000;
     margin: 0px;
-  }
-  .header-button {
+}
+.header-button {
     font-size: 1rem;
     font-family: 'Prompt', sans-serif;
     width: 8vw;
@@ -202,20 +201,19 @@
     border-radius: 0px 0px 20px 20px;
     border-top-color: #0000;
     transition: all .4s ease-in-out;
-  }
-  .header-button:hover {
+}
+.header-button:hover {
     background-position: 100% 0;
     transition: all .4s ease-in-out;
-  }
-  .header-button:focus {
+}
+.header-button:focus {
     outline: none;
-  }
-  .header-button.color {
+}
+.header-button.color {
     background-image: linear-gradient(to left, black, #faff00, black, black);
-  }
-  /* ---------------------------------------------Main Body---------------------------------------------- */
- 
-  .section-1 {
+}
+/* ---------------------------------------------Main Body---------------------------------------------- */
+.section-1 {
     padding: 400px 0px 0vw 20px;
     margin: 0px 0px 3vw 0px;
     height: 300px;
@@ -261,7 +259,7 @@
   
   /* ----------------------------------------------------------------------------------------- */
 
-  /* -----------------------------------------Button------------------------------------------ */
+  /* ----------------------------------------------Button------------------------------------------------ */
   #top-button {
     position: fixed;
     bottom: 20px;
@@ -390,6 +388,7 @@
   .links-header-icon.color {
     background-image: linear-gradient(to left, black, #37c9ef, black, black);
   }
+  /* iii */
   /* -------------------------------------------Device Settings------------------------------------------ */
     @media screen and (max-width: 992px) {
       body {
@@ -404,6 +403,7 @@
         display: block;
       }
       #icon-links-container{
+        /* width: 15%; */
         position: fixed;
         display: flex;
         top: 170px;
@@ -537,6 +537,7 @@
         display: block;
       }
       #icon-links-container{
+        /* width: 15%; */
         position: fixed;
         display: flex;
         top: 180px;

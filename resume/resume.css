@@ -68,7 +68,6 @@ body {
   padding: 3px;
   position: fixed;
 }
-/* iii */
 #nav-icon {
   margin: 0 auto;
   display: block;
@@ -169,7 +168,6 @@ body {
 .header-icon.color {
   background-image: linear-gradient(to left, black, #37c9ef, black, black);
 }
-/* iii */
 #links-container {
   text-align:center;
   padding: 57px 17vw 1vw 1vw;

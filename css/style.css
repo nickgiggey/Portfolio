@@ -34,6 +34,16 @@ body {
   border-radius: 10px;
 }
 
+.design-container {
+    display: grid;
+    grid-template-columns: repeat(2, 275px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em;
+}
+
 .container {
   display: flex;
   text-align: center;
@@ -113,6 +123,8 @@ body {
   color: #08E8DE;
   line-height: 2.5;
   font-family: 'Limelight', cursive;
+  gap: 15px;
+  font-size: 1.25em;
 }
 
 .four {
