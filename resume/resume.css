@@ -1,6 +1,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 /* -----------------------------------------------Body------------------------------------------------- */
 body {
   background: white;
@@ -12,6 +13,7 @@ body {
 #nav {
   text-align: center;
 }
+
 #navbar {
   top: 0px;
   Left: 0px;
@@ -26,11 +28,13 @@ body {
   border-left-color: #2c92d5;
   opacity: 98%;
   position: fixed;
-  box-shadow: 0 2px 30px rgba(44, 146, 213,.80);
+  box-shadow: 0 2px 30px rgba(44, 146, 213, .80);
 }
+
 #navbar #nav-icon {
   padding: 25px 5px 5px 5px;
 }
+
 #name {
   font-size: 30px;
   text-decoration-color: #08E8DE;
@@ -63,9 +67,11 @@ body {
 .name-underline.color {
   background-image: linear-gradient(to right, #00000000, #00000000, #FCF340, #00000000);
 }
+
 #logo {
   float: left;
 }
+
 #logo-img {
   width: 70px;
   height: auto;
@@ -76,6 +82,7 @@ body {
   margin: 0 auto;
   display: block;
 }
+
 #icon-links-container {
   float: right;
   position: fixed;
@@ -85,9 +92,10 @@ body {
   cursor: pointer;
   transition-duration: 0.4s;
   background-color: #0000;
-  text-align:center;
+  text-align: center;
   margin: 0px;
 }
+
 #header-icon-github {
   cursor: pointer;
   border: none;
@@ -97,11 +105,13 @@ body {
   background-size: cover;
   margin: 25px 0px 15px 0px;
 }
+
 .github-pic {
   width: 3.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 #header-icon-linkedin {
   cursor: pointer;
   border: none;
@@ -109,11 +119,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .linkedin-pic {
   width: 3.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 #header-icon-youtube {
   cursor: pointer;
   border: none;
@@ -121,11 +133,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .youtube-pic {
   width: 3.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 #header-icon-instagram {
   cursor: pointer;
   border: none;
@@ -133,11 +147,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .instagram-pic {
   width: 3.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 #header-icon-facebook {
   cursor: pointer;
   border: none;
@@ -145,11 +161,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .facebook-pic {
   width: 3.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 #header-icon-movierelics {
   cursor: pointer;
   border: none;
@@ -157,23 +175,27 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .movierelics-pic {
   width: 4.5vw;
   height: auto;
   background-color: #00000000;
 }
+
 .header-icon:hover {
   background-position: 100% 0;
   transition: all .4s ease-in-out;
 }
+
 .header-icon:focus {
   outline: none;
 }
+
 .header-icon.color {
   background-image: linear-gradient(to left, black, #37c9ef, black, black);
 }
 #links-container {
-  text-align:center;
+  text-align: center;
   padding: 57px 17vw 1vw 1vw;
   position: fixed;
   top: 20px;
@@ -183,6 +205,7 @@ body {
   background-color: #0000;
   margin: 0px;
 }
+
 .header-button {
   font-size: 1rem;
   font-family: 'Prompt', sans-serif;
@@ -201,16 +224,20 @@ body {
   border-top-color: #0000;
   transition: all .4s ease-in-out;
 }
+
 .header-button:hover {
   background-position: 100% 0;
   transition: all .4s ease-in-out;
 }
+
 .header-button:focus {
   outline: none;
 }
+
 .header-button.color {
   background-image: linear-gradient(to left, white, #faff00, white, white);
 }
+
 /* ---------------------------------------------Main Body---------------------------------------------- */
 .words {
   padding-left: 5px;
@@ -218,6 +245,7 @@ body {
   color: black;
   text-align: center;
 }
+
 .body {
   width: 100%;
   height: 100%;
@@ -225,6 +253,7 @@ body {
   background-repeat: no-repeat;
   padding: 0px 20px 25px 20px;
 }
+
 #section-1 {
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), rgba(255, 255, 255, 0.4) url(AE62FD10-6524-4E57-9860-386EE367B710.JPG);
   background-attachment: fixed;
@@ -239,6 +268,7 @@ body {
   width: 95%;
   z-index: -10;
 }
+
 .container-1 {
   height: 200px;
   box-shadow: 0 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
@@ -246,6 +276,7 @@ body {
   border: 2px solid black;
   z-index: 10;
 }
+
 .section-2 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   font-family: 'Rock Salt', cursive;
@@ -264,7 +295,8 @@ body {
   border: 2px solid black;
   margin: 5vw 5vw 10vw 0vw;
   padding: 15px 15px 15px 15px;
-}    
+}
+
 .section-3 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), rgba(255, 255, 255, 0.4) url(2CBEFD6C-E977-4E66-A4AF-2A51D3A57474.png);
@@ -324,6 +356,7 @@ body {
   padding: 15px 15px 15px 15px;
   width: 95%;
 }
+
 .section-6 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), rgba(255, 255, 255, 0.4) url(Wells-Fargo-Logo.webp);
@@ -343,6 +376,7 @@ body {
   padding: 15px 15px 15px 15px;
   width: 95%;
 }
+
 .section-7 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   height: 200px;
@@ -364,6 +398,7 @@ body {
   height: 400px;
   color: black;
 }
+
 .section-8 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   font-size: 1vw;
@@ -406,6 +441,7 @@ body {
   padding: 15px 15px 15px 15px;
   width: 95%;
 }
+
 .section-10 {
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.8);
   text-align: right;
@@ -428,6 +464,7 @@ body {
   padding: 15px 15px 15px 15px;
   width: 95%;
 }
+
 .box2 {
   height: 600px;
   color: white;
@@ -438,6 +475,7 @@ body {
   padding: 15px 15px 15px 15px;
   width: 95%;
 }
+
 /* ----------------------------------------------Button------------------------------------------------ */
 #top-button {
   position: fixed;
@@ -448,6 +486,7 @@ body {
   transition-duration: 0.4s;
   background-color: #0000;
 }
+
 .button-pic {
   width: 80px;
   height: auto;
@@ -455,6 +494,7 @@ body {
   border-radius: 50%;
   box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
 }
+
 #top-button:hover {
   border-radius: 50%;
   box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
@@ -463,11 +503,13 @@ body {
   transition-duration: 0.4s;
   transition-timing-function: ease-in-out;
 }
+
 /* -------------------------------------------Links Extension------------------------------------------ */
 #links-nav-icon {
   margin: 0 auto;
   display: block;
 }
+
 #links-icon-links-container {
   position: fixed;
   display: flex;
@@ -482,6 +524,7 @@ body {
   justify-content: space-between;
   align-items: flex-end;
 }
+
 #links-header-icon-github {
   cursor: pointer;
   border: none;
@@ -491,11 +534,13 @@ body {
   background-size: cover;
   margin: 25px 0px 15px 0px;
 }
+
 .links-github-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 #links-header-icon-linkedin {
   cursor: pointer;
   border: none;
@@ -503,11 +548,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .links-linkedin-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 #links-header-icon-youtube {
   cursor: pointer;
   border: none;
@@ -515,11 +562,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .links-youtube-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 #links-header-icon-instagram {
   cursor: pointer;
   border: none;
@@ -527,11 +576,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .links-instagram-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 #links-header-icon-facebook {
   cursor: pointer;
   border: none;
@@ -539,11 +590,13 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px 0px;
 }
+
 .links-facebook-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 #links-header-icon-movierelics {
   cursor: pointer;
   border: none;
@@ -551,272 +604,312 @@ body {
   background-color: #0000;
   margin: 0px 0px 15px -10px;
 }
+
 .links-movierelics-pic {
   width: 5vmax;
   height: auto;
   background-color: #00000000;
 }
+
 .links-header-icon:hover {
   background-position: 100% 0;
   transition: all .4s ease-in-out;
 }
+
 .links-header-icon:focus {
   outline: none;
 }
+
 .links-header-icon.color {
   background-image: linear-gradient(to left, black, #37c9ef, black, black);
 }
-  /* -------------------------------------------Device Settings------------------------------------------ */
-    @media screen and (max-width: 992px) {
-      body {
-        background-color: white;
-        color: black;
-      }
-      #links-container {
-        width: 70%;
-        margin: 30px 20px;
-      }
-      #nav-icon {
-        margin: 5px 5px 5px 5px;
-        display: block;
-      }
-      #icon-links-container{
-        /* width: 15%; */
-        position: fixed;
-        display: flex;
-        top: 170px;
-        right: 25vmax;
-        width: 55vw;
-        cursor: pointer;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        text-align: center;
-        margin: 0px;
-        justify-content: space-between;
-        align-items: flex-end;
-      }
-      #header-icon-github {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .github-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-linkedin {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .linkedin-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-youtube {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .youtube-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-instagram {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .instagram-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-facebook {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .facebook-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-movierelics {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px -5px;
-      }
-      .movierelics-pic {
-        width: 35px;
-        height: auto;
-        background-color: #00000000;
-      }
-      .header-button {
-        font-size: 12px;
-        font-family: 'Prompt', sans-serif;
-        width: 80px;
-        font-weight: 600;
-        color: #fff;
-        cursor: pointer;
-        margin: 2px 40px 0px -15px;
-        height: 25px;
-        text-align: center;
-        border: 1px solid;
-        border-color: #86eae9;
-        background-size: 300% 100%;
-        border-radius: 0px 0px 20px 20px;
-        border-top-color: #0000;
-        transition: all .4s ease-in-out;
-        background-size: cover;
-        }
-      #top-button {
-        position: fixed;
-        bottom: 20px;
-        left: -700px;
-        cursor: pointer;
-        border: #000;
-        transition-duration: 0.4s;
-        background-color: #0000;
-      }
-      .button-pic {
-        width: 80px;
-        height: auto;
-        background-color: #00000019;
-        border-radius: 50%;
-        box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
-      }
-    /* If a screen is 600px or less wide, stack the columns on top of each other instead of next to each other */
-    @media screen and (max-width: 500px) {
-      body {
-        background-color: white;
-      }
-      #links-container {
-        width: 70%;
-        margin: 45px -10px;
-      }
-      #nav-icon {
-        margin: 5px 5px 5px 5px;
-        display: block;
-      }
-      #icon-links-container{
-        /* width: 15%; */
-        position: fixed;
-        display: flex;
-        top: 180px;
-        right: 18vmax;
-        width: 55vw;
-        cursor: pointer;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        text-align: center;
-        margin: 0px;
-        justify-content: space-between;
-        align-items: flex-end;
-      }
-      #header-icon-github {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .github-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-linkedin {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .linkedin-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-youtube {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .youtube-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-instagram {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .instagram-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-facebook {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px 0px;
-      }
-      .facebook-pic {
-        width: 30px;
-        height: auto;
-        background-color: #00000000;
-      }
-      #header-icon-movierelics {
-        cursor: pointer;
-        border: none;
-        transition-duration: 0.4s;
-        background-color: #0000;
-        margin: 0px 0px 15px -5px;
-      }
-      .movierelics-pic {
-        width: 32px;
-        height: auto;
-        background-color: #00000000;
-      }
-      .header-button {
-        font-size: 12px;
-        font-family: 'Prompt', sans-serif;
-        width: 60px;
-        font-weight: 600;
-        color: #fff;
-        cursor: pointer;
-        margin: 2px 6px 0px -15px;
-        height: 25px;
-        text-align: center;
-        border: 1px solid;
-        border-color: #86eae9;
-        background-size: 300% 100%;
-        border-radius: 0px 0px 20px 20px;
-        border-top-color: #0000;
-        transition: all .4s ease-in-out;
-      }
+
+/* -------------------------------------------Device Settings------------------------------------------ */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  #links-container {
+    width: 70%;
+    margin: 30px 20px;
+  }
+
+  #nav-icon {
+    margin: 5px 5px 5px 5px;
+    display: block;
+  }
+
+  #icon-links-container {
+    /* width: 15%; */
+    position: fixed;
+    display: flex;
+    top: 170px;
+    right: 25vmax;
+    width: 55vw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    text-align: center;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  #header-icon-github {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .github-pic {
+    width: 30px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  #header-icon-linkedin {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .linkedin-pic {
+    width: 30px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  #header-icon-youtube {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .youtube-pic {
+    width: 30px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  #header-icon-instagram {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .instagram-pic {
+    width: 30px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  #header-icon-facebook {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .facebook-pic {
+    width: 30px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  #header-icon-movierelics {
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+    background-color: #0000;
+    margin: 0px 0px 15px -5px;
+  }
+
+  .movierelics-pic {
+    width: 35px;
+    height: auto;
+    background-color: #00000000;
+  }
+
+  .header-button {
+    font-size: 12px;
+    font-family: 'Prompt', sans-serif;
+    width: 80px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px 40px 0px -15px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #86eae9;
+    background-size: 300% 100%;
+    border-radius: 0px 0px 20px 20px;
+    border-top-color: #0000;
+    transition: all .4s ease-in-out;
+    background-size: cover;
+  }
+
+  #top-button {
+    position: fixed;
+    bottom: 20px;
+    left: -700px;
+    cursor: pointer;
+    border: #000;
+    transition-duration: 0.4s;
+    background-color: #0000;
+  }
+
+  .button-pic {
+    width: 80px;
+    height: auto;
+    background-color: #00000019;
+    border-radius: 50%;
+    box-shadow: 0 0px 13px 12px rgb(0 0 0 / 10%);
+  }
+
+  /* If a screen is 600px or less wide, stack the columns on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    body {
+      background-color: white;
+    }
+
+    #links-container {
+      width: 70%;
+      margin: 45px -10px;
+    }
+
+    #nav-icon {
+      margin: 5px 5px 5px 5px;
+      display: block;
+    }
+
+    #icon-links-container {
+      /* width: 15%; */
+      position: fixed;
+      display: flex;
+      top: 180px;
+      right: 18vmax;
+      width: 55vw;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      text-align: center;
+      margin: 0px;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    #header-icon-github {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .github-pic {
+      width: 30px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    #header-icon-linkedin {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .linkedin-pic {
+      width: 30px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    #header-icon-youtube {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .youtube-pic {
+      width: 30px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    #header-icon-instagram {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .instagram-pic {
+      width: 30px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    #header-icon-facebook {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px 0px;
+    }
+
+    .facebook-pic {
+      width: 30px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    #header-icon-movierelics {
+      cursor: pointer;
+      border: none;
+      transition-duration: 0.4s;
+      background-color: #0000;
+      margin: 0px 0px 15px -5px;
+    }
+
+    .movierelics-pic {
+      width: 32px;
+      height: auto;
+      background-color: #00000000;
+    }
+
+    .header-button {
+      font-size: 12px;
+      font-family: 'Prompt', sans-serif;
+      width: 60px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 2px 6px 0px -15px;
+      height: 25px;
+      text-align: center;
+      border: 1px solid;
+      border-color: #86eae9;
+      background-size: 300% 100%;
+      border-radius: 0px 0px 20px 20px;
+      border-top-color: #0000;
+      transition: all .4s ease-in-out;
+    }
   }
 }
