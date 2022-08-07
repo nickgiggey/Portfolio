@@ -9,6 +9,9 @@
     background-color: #000;
     background-repeat: no-repeat;
   }
+  ::-webkit-scrollbar {
+  display: none;
+}
   /* ----------------------------------------------Nav Bar----------------------------------------------- */
   #nav {
     text-align: center;
@@ -40,6 +43,7 @@
     font-family: 'Permanent Marker', cursive;
     font-family: 'Rock Salt', cursive;
     margin: 0vmax 0vw 5px 5.5vmax;
+    margin-top: 20px;
   }
   .name-underline {
     font-size: 50px;
@@ -157,7 +161,7 @@
     border: none;
     transition-duration: 0.4s;
     background-color: #0000;
-    margin: 0px 0px 15px -10px;
+    margin: 0px 0px 15px 0px;
   }
   .movierelics-pic {
     width: 4.5vw;
