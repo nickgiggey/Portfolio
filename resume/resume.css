@@ -234,7 +234,7 @@ body {
   font-size: 1vw;
   font-weight: bold;
   background-repeat: no-repeat;
-  padding: 36vmax 0px 20vw 40px;
+  padding: 30vmax 0px 20vw 40px;
   margin-top: 75px;
   width: 95%;
   z-index: -10;
@@ -398,7 +398,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: black;
-  height: 900px;
+  height: 1100px;
   text-align: center;
   background-repeat: no-repeat;
   border: 2px solid black;
