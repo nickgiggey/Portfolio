@@ -319,8 +319,8 @@ li {
 
 .carousel {
   filter: drop-shadow(0 0 10px #0003);
-  width: 25%;
-  height: 25%;
+  width: 600px;
+  height: 35%;
   list-style: none;
   position: absolute;
   top: 20%;
@@ -419,7 +419,7 @@ li {
   margin-right: 20px;
   margin-left: 10px;
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 .carousel_slide:nth-child(2) {
   background-image: url("182655998-55985a44-5676-4e29-9ca0-3f49efcb76a2.png");
