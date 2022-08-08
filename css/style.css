@@ -283,7 +283,7 @@ body {
   }
 }
 
-.first-picture, .second-picture, .third-picture, .fourth-picture {
+.first-picture, .second-picture, .third-picture, .fourth-picture, .fifth-picture {
   position: absolute;
   opacity: 0;
   animation: display 20s infinite;

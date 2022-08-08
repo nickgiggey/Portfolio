@@ -15,11 +15,3 @@ function scrollTop() {
     document.getElementById("progress").innerText = count;
 };
 // --------------------------------------------End---------------------------------------------
-// -------------------------------------Christmas Lights---------------------------------------
-// document.getElementById('lightChanger').addEventListener('click', function () {
-//     if (this.classList.contains('off')) {
-//         this.classList.remove('off');
-//     } else {
-//         this.classList.add('off');
-//     }
-// });
