@@ -12,6 +12,10 @@
   ::-webkit-scrollbar {
   display: none;
 }
+
+.body-container {
+  height: 100vh;
+}
   /* ----------------------------------------------Nav Bar----------------------------------------------- */
   #nav {
     text-align: center;
@@ -242,7 +246,6 @@
       text-align: center;
   }
   .section-2 {
-    padding: 20px 0px 45vw 20px;
     margin: 0px 0px 3vw 100px;
     width: 90%;
     display: flex;
