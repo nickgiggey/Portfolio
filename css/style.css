@@ -268,6 +268,21 @@ body {
   font-size: 20px;
 }
 
+.carousel {
+  position: relative;
+  width: 40rem;
+  margin-top: 20vh;
+  padding-left: 150px;
+}
+
+.first-picture, .second-picture, .third-picture, .fourth-picture, .fifth-picture {
+  position: absolute;
+  opacity: 0;
+  animation: display 20s infinite;
+  border: 5px solid rgb(248, 248, 4);
+  border-radius: 25px;
+}
+
 @keyframes display {
   0% {
     transform: translateX(150px);
@@ -281,29 +296,6 @@ body {
     transform: translateX(-50px);
     opacity: 0;
   }
-}
-
-.first-picture, .second-picture, .third-picture, .fourth-picture, .fifth-picture {
-  position: absolute;
-  opacity: 0;
-  animation: display 20s infinite;
-  border: 5px solid black;
-  border-radius: 25px;
-}
-
-.carousel {
-  position: relative;
-  width: 40rem;
-  margin-top: 20vh;
-  padding-left: 150px;
-}
-
-.carousel > img {
-  position: absolute;
-  opacity: 0;
-  animation: display 20s infinite;
-  border: 5px solid black;
-  border-radius: 25px;
 }
 
 img:nth-child(2) {
